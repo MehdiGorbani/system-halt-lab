@@ -1,0 +1,5 @@
+event_id,timestamp,user_id,event_type,resource,details
+1,2025-07-29 10:00:00,101,LOGIN,auth_system,Successful login
+2,2025-07-29 10:05:00,102,ACCESS,document_123,Read access granted
+3,2025-07-29 10:10:00,101,UPDATE,profile,Profile updated
+4,2025-07-29 10:15:00,103,ERROR,auth_system,Failed login attempt
