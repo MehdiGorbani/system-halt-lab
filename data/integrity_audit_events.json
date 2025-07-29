@@ -1,0 +1,34 @@
+[
+    {
+        "event_id": 1,
+        "timestamp": "2025-07-29 10:00:00",
+        "user_id": 101,
+        "event_type": "LOGIN",
+        "resource": "auth_system",
+        "details": "Successful login"
+    },
+    {
+        "event_id": 2,
+        "timestamp": "2025-07-29 10:05:00",
+        "user_id": 102,
+        "event_type": "ACCESS",
+        "resource": "document_123",
+        "details": "Read access granted"
+    },
+    {
+        "event_id": 3,
+        "timestamp": "2025-07-29 10:10:00",
+        "user_id": 101,
+        "event_type": "UPDATE",
+        "resource": "profile",
+        "details": "Profile updated"
+    },
+    {
+        "event_id": 4,
+        "timestamp": "2025-07-29 10:15:00",
+        "user_id": 103,
+        "event_type": "ERROR",
+        "resource": "auth_system",
+        "details": "Failed login attempt"
+    }
+]
